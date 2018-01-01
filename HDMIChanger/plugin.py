@@ -43,5 +43,5 @@ def Plugins(**kwargs):
 		name="HDMI Changer", 
 		description="Allow change HDMI port in TV", 
 		where = PluginDescriptor.WHERE_PLUGINMENU, 
-		icon="../hdmi.png", 
+		icon="./hdmi.png", 
 		fnc=main)
